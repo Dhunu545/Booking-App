@@ -18,10 +18,6 @@ public class Bookings {
     @Column(name = "car_name")
     private String carName;
 
-    // @ManyToOne
-    // @JoinColumn(name = "car_number", referencedColumnName = "car_number", insertable = false, updatable = false)
-    // private Cars cars;
-
     @Column(name = "car_number")
     private String carNumber;
 
